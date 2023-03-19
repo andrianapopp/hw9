@@ -1,73 +1,33 @@
 //1
 const a = prompt(`number a`)
-if (a === 0){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a === 0 ? `Верно` : `Неверно`
 //2
 const a = prompt(`number a`)
-if (a > 0){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a > 0 ? `Верно` : `Неверно`
 //3
 const a = prompt(`number a`)
-if (a < 0){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a < 0 ? `Верно` : `Неверно`
 //4
 const a = prompt(`number a`)
-if (a >= 0){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a >= 0 ? `Верно` : `Неверно`
 //5
 const a = prompt(`number a`)
-if (a <= 0){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a <= 0 ? `Верно` : `Неверно`
 //6
 const a = prompt(`number a`)
-if (a !== 0){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a !== 0 ? `Верно` : `Неверно`
 //7
 const a = prompt(`number a`)
-if (a === `test`){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a === `test` ? `Верно` : `Неверно`
 //8
 const a = prompt(`number a`)
-if (a === 1){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a === `1` ? `Верно` : `Неверно`
 //9
 const a = prompt(`number a`)
-if (a > 0 && a < 5){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a === a > 0 && a < 5 ? `Верно` : `Неверно`
 //10
 let a = prompt(`number a`)
-if (a === 0 || a === 2){
-    a += 7}
-else {
-    a /= 7}
-alert(a)
+a === 0 || a === 2 ? `Верно` : `Неверно`
 //11
 const a = prompt(`number a`)
 const b = prompt(`number b`)
