@@ -31,19 +31,12 @@ a === 0 || a === 2 ? `Верно` : `Неверно`
 //11
 const a = prompt(`number a`)
 const b = prompt(`number b`)
-if (a <= 1 && b >= 3){
-    alert(a+b)}
-else {
-    alert(a-b)
-}
+const c = (a <= 1 && b >= 3 ? a+b : a-b)
+alert (c)
 //12
 const a = prompt(`number a`)
 const b = prompt(`number b`)
-if (a > 2 && a < 11 || b>=6 && b<14){
-    alert(`Верно`)}
-else {
-    alert(`Неверно`)
-}
+a > 2 && a < 11 || b>=6 && b<14 ? `Верно` : `Неверно`
 //13
 let num = prompt(`number`)
 switch (num){
